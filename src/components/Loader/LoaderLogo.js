@@ -4,6 +4,7 @@ import "./LoaderLogo.css";
 class LogoLoader extends React.Component {
   render() {
     const theme = this.props.theme;
+    // console.log(theme);
     return (
       <svg
         className="raw_logo"
