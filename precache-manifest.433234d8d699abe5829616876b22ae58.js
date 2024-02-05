@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32ff43a289e3060b27af7e6b36c8063e",
+    "revision": "c9db9c4abf6d05d4d9f8bdb67e9a6048",
     "url": "./index.html"
   },
   {
-    "revision": "b8f89f5b446fd44850bf",
+    "revision": "007f7c1a35a1a7c4d330",
     "url": "./static/css/main.550ff985.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.516573b5.chunk.js"
   },
   {
-    "revision": "b8f89f5b446fd44850bf",
-    "url": "./static/js/main.8c0e5536.chunk.js"
+    "revision": "007f7c1a35a1a7c4d330",
+    "url": "./static/js/main.66587215.chunk.js"
   },
   {
     "revision": "5824d763da9a72169070",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "./static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "baaf5b7ebfce0bbe95bd164f9f4a7d0f",
+    "url": "./static/media/FreeCodeCamp_logo.baaf5b7e.png"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -196,16 +200,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ibm_logo.d3fccbe1.png"
   },
   {
-    "revision": "571a8584e69ecfbe326c8b8385fbbf54",
-    "url": "./static/media/iiitk_logo.571a8584.png"
-  },
-  {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "./static/media/intel_logo.29152cf7.jpg"
-  },
-  {
-    "revision": "60ed0bd3f8b99ac1d29e74575f804aaa",
-    "url": "./static/media/iu_logo.60ed0bd3.png"
   },
   {
     "revision": "5b4a6449747ec61a6d9aa874f2a9ceba",
@@ -228,6 +224,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/nptel_logo.95a12a2b.png"
   },
   {
+    "revision": "baf7ebdf6944f62ad17a5ae031879ef8",
+    "url": "./static/media/plp.baf7ebdf.png"
+  },
+  {
     "revision": "414dfbd98516b39255a3e22ed90b3f7d",
     "url": "./static/media/portfolio.414dfbd9.gif"
   },
@@ -246,10 +246,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71408db71465afd742233e4a96f06526",
     "url": "./static/media/pwa.71408db7.png"
-  },
-  {
-    "revision": "2c497738be3831492aeb6bdc43f19154",
-    "url": "./static/media/stanford_logo.2c497738.png"
   },
   {
     "revision": "6ac91b161c2c9934a44f72d75d18142d",
