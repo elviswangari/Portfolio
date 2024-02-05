@@ -1,8 +1,8 @@
-<p align="center"> 
+<p align="center">
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 
-<h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
+<h1 align="center"> Software Developer Master Portfolio 🔥 </h1>
 <h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
 
 <p align="center">
@@ -23,7 +23,7 @@
 </p>
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
 
-<p align="center"> 
+<p align="center">
     <a href="https://ashutosh1919.github.io" target="_blank">
     <img src="images/masterPortfolioThemes.png"></img>
   </a>
@@ -42,7 +42,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
+To view a live example, **[click here](https://elviswangari.tech)**
 
 # Clone and Use 📋
 
@@ -50,14 +50,19 @@ To view a live example, **[click here](https://ashutosh1919.github.io/)**
 - While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
+
   ```bash
-   git clone https://github.com/ashutosh1919/masterPortfolio.git
+   git clone https://github.com/elviswangari/Portfolio.git
   ```
+
   This will clone the whole repository in your system.
+
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
+
   ```node
   npm install
   ```
+
 - Now the project is ready to use
 - You can check it using `npm start`, it will open the website locally on your browser.
 
@@ -92,7 +97,7 @@ You can change the personal information, experience, education, social media, ce
 ### How to change the icons on homepage under what i do section?
 
 1. This section pulls data from `skills` in portfolio.js file.
-2. Visit this website: https://icon-sets.iconify.design/
+2. Visit this website: <https://icon-sets.iconify.design/>
 3. Search for the skill you are looking to add.
 4. Select the icon of your choice.
 5. Copy the text beside **Selected Icon** and replace it with `fontAwesomeClassName` of that particular softwareSkill.
@@ -137,12 +142,14 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - If you don't want Splash screen or you don't know how to design logo, then this option is for you
 
   - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
+
     ```javascript
     // Website related settings
     const settings = {
       isSplash: true,
     };
     ```
+
   - Change `isSplash` from `true` to `false`
   - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen
   - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
@@ -184,7 +191,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
 
-<p align="center"> 
+<p align="center">
     <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
     <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
   </a>

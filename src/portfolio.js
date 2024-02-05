@@ -411,32 +411,31 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+      title: "Software Engineering",
+      subtitle: "- Julien Barbier",
+      logo_path: "alx_logo.png",
+      certificate_link: "https://intranet.alxswe.com/certificates/BXzMC2EnN9",
+      alt_name: "Alx Africa",
+      color_code: "#13b2dc",
     },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
+    {
+      title: "Software and Mobile development",
+      subtitle: "- PLP",
+      logo_path: "plp.png",
+      certificate_link:
+        "https://plpacademy.powerlearnproject.org/verify-cert/412fd3fb-5216-49f6-8176-734d9f4ebc2d",
+      alt_name: "Power Learn Project",
+      color_code: "#01a5aa",
+    },
+    {
+      title: "Data Analysis",
+      subtitle: "- Data Analysis",
+      logo_path: "FreeCodeCamp_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+      alt_name: "Freecodecamp",
+      color_code: "#0a0a22",
+    },
     // {
     //   title: "Data Science",
     //   subtitle: "- Alex Aklson",
