@@ -24,8 +24,7 @@ const greeting = {
   nickname: "elviso_elfisi",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+  resumeLink: "https://github.com/elviswangari",
   portfolio_repository: "/contact",
   githubProfile: "https://github.com/elviswangari",
 };
@@ -412,7 +411,7 @@ const certifications = {
   certifications: [
     {
       title: "Software Engineering",
-      subtitle: "- Julien Barbier",
+      subtitle: "- alx",
       logo_path: "alx_logo.png",
       certificate_link: "https://intranet.alxswe.com/certificates/BXzMC2EnN9",
       alt_name: "Alx Africa",
@@ -429,7 +428,7 @@ const certifications = {
     },
     {
       title: "Data Analysis",
-      subtitle: "- Data Analysis",
+      subtitle: "- freecodecamp",
       logo_path: "FreeCodeCamp_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
@@ -533,27 +532,27 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Software Engineer",
+          company: "Freelance",
+          company_url: "https://elviswangari.tech",
+          logo_path: "muffito_logo.png",
+          duration: "Sep 2021 - present",
+          location: "Laikipa, Kenya",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Versatile freelance software engineer adept at developing robust APIs and software solutions. Proficient in a variety of programming languages and frameworks, with a keen focus on delivering efficient and scalable code. Committed to meeting client needs and exceeding expectations through innovative problem-solving and rigorous testing methodologies.",
+          color: "#9b1578",
+        },
+        {
+          title: "Web Developer",
+          company: "Freelance",
+          company_url: "https://elviswangari.com/",
+          logo_path: "legato_logo.png",
+          duration: "Apr 2018 - Aug 2021",
+          location: "Laikipia, Kenya",
+          description:
+            "Experienced freelance developer proficient in crafting dynamic websites utilizing WordPress, HTML, CSS, and JavaScript technologies. Delivered tailored solutions to clients, ensuring seamless functionality and captivating user experiences.",
           color: "#0879bf",
         },
-        // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
-        //   duration: "May 2018 - Oct 2018",
-        //   location: "Pune, Maharashtra",
-        //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-        //   color: "#9b1578",
-        // },
         // {
         //   title: "Android Developer",
         //   company: "FreeCopy Pvt. Ltd.",
@@ -742,7 +741,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://blogs.elviswangari.tech/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
