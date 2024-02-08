@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Elvis Wangari",
   logo_name: "Elvis Wangari",
-  nickname: "elviso_elfisi",
+  nickname: "elvis_wangari",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink: "https://github.com/elviswangari",
@@ -80,6 +80,12 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/elvis_wangari/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Whatsapp",
+    link: "https://wa.me/254710374236",
+    fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#25D366", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -569,17 +575,17 @@ const experience = {
     {
       title: "Internships",
       experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
+        // {
+        //   title: "Machine Learning Intern",
+        //   company: "TikTok Inc.",
+        //   company_url: "https://www.tiktok.com/en/",
+        //   logo_path: "tiktok_logo.png",
+        //   duration: "May 2022 - Aug 2022",
+        //   location: "San Francisco, USA",
+        //   description:
+        //     "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+        //   color: "#000000",
+        // },
         //   {
         //     title: "Data Science Research Intern",
         //     company: "Delhivery Pvt. Ltd.",
@@ -608,17 +614,17 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
+        // {
+        //   title: "Google Explore ML Facilitator",
+        //   company: "Google",
+        //   company_url: "https://about.google/",
+        //   logo_path: "google_logo.png",
+        //   duration: "June 2019 - April 2020",
+        //   location: "Hyderabad, Telangana",
+        //   description:
+        //     "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+        //   color: "#4285F4",
+        // },
         // {
         //   title: "Microsoft Student Partner",
         //   company: "Microsoft",
