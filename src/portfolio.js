@@ -53,7 +53,7 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/elvis",
+    link: "https://www.youtube.com/channel/UCenI25jNU3WcN9GU0xquteg",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -69,12 +69,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/elviswangari/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/elviswangari/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
   {
     name: "Instagram",
     link: "https://www.instagram.com/elvis_wangari/",
@@ -86,6 +86,12 @@ const socialMediaLinks = [
     link: "https://wa.me/254710374236",
     fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#25D366", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Hashnode",
+    link: "https://hashnode.com/@elviswangari",
+    fontAwesomeIcon: "fa-hashnode", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#2962FF", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
