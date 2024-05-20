@@ -590,40 +590,40 @@ const experience = {
     {
       title: "Internships",
       experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
+        // {
+        //   title: "Machine Learning Intern",
+        //   company: "TikTok Inc.",
+        //   company_url: "https://www.tiktok.com/en/",
+        //   logo_path: "tiktok_logo.png",
+        //   duration: "May 2022 - Aug 2022",
+        //   location: "San Francisco, USA",
+        //   description:
+        //     "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+        //   color: "#000000",
+        // },
         {
           title: "Data Science Intern",
           company: "Safra Data Ltd.",
           company_url: "https://safradataschool.carrd.co/",
-          logo_path: "safradata.png",
+          logo_path: "delhivery_logo.png",
           duration: "May 2024 - Sept 2024",
           location: "Nanyuki, Kenya",
           description:
             "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this.",
           color: "#ee3c26",
         },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
+        //   {
+        //     title: "Data Science Intern",
+        //     company: "Intel Indexer LLC",
+        //     company_url:
+        //       "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+        //     logo_path: "intel_logo.jpg",
+        //     duration: "Nov 2018 - Dec 2018",
+        //     location: "Work From Home",
+        //     description:
+        //       "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+        //     color: "#0071C5",
+        //   },
       ],
     },
     {
