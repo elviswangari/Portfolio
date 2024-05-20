@@ -605,7 +605,7 @@ const experience = {
           title: "Data Science Intern",
           company: "Safra Data Ltd.",
           company_url: "https://safradataschool.carrd.co/",
-          logo_path: "safradata.png",
+          logo_path: "delhivery_logo.png",
           duration: "May 2024 - Sept 2024",
           location: "Nanyuki, Kenya",
           description:
