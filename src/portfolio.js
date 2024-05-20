@@ -601,17 +601,17 @@ const experience = {
         //     "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
         //   color: "#000000",
         // },
-        //   {
-        //     title: "Data Science Research Intern",
-        //     company: "Delhivery Pvt. Ltd.",
-        //     company_url: "https://www.delhivery.com/",
-        //     logo_path: "delhivery_logo.png",
-        //     duration: "May 2019 - Sept 2019",
-        //     location: "Gurgaon, Haryana",
-        //     description:
-        //       "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-        //     color: "#ee3c26",
-        //   },
+        {
+          title: "Data Science Intern",
+          company: "Safra Data Ltd.",
+          company_url: "https://safradataschool.carrd.co/",
+          logo_path: "delhivery_logo.png",
+          duration: "May 2024 - Sept 2024",
+          location: "Nanyuki, Kenya",
+          description:
+            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this.",
+          color: "#ee3c26",
+        },
         //   {
         //     title: "Data Science Intern",
         //     company: "Intel Indexer LLC",
@@ -762,7 +762,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.elviswangari.tech/",
+    link: "https://elviswangari.hashnode.dev/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
