@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Elvis Wangari Portfolio",
     type: "website",
-    url: "http://github.com.com/elviswangari",
+    url: "https://elviswangari.netlify.app",
   },
 };
 
@@ -24,7 +24,7 @@ const greeting = {
   nickname: "elvis_wangari",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink: "https://github.com/elviswangari",
+  resumeLink: "https://elviswangari.netlify.app",
   portfolio_repository: "/contact",
   githubProfile: "https://github.com/elviswangari",
 };
@@ -162,20 +162,20 @@ const skills = {
           style: {
             color: "#2C8EBB",
           },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          // },
+          // {
+          //   skillName: "Gatsby",
+          //   fontAwesomeClassname: "simple-icons:gatsby",
+          //   style: {
+          //     color: "#663399",
+          //   },
+          // },
+          // {
+          //   skillName: "Flutter",
+          //   fontAwesomeClassname: "simple-icons:flutter",
+          //   style: {
+          //     color: "#02569B",
+          //   },
         },
       ],
     },
