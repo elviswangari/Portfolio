@@ -456,15 +456,15 @@ const certifications = {
       alt_name: "Freecodecamp",
       color_code: "#0a0a22",
     },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
+    {
+      title: "Data Science",
+      subtitle: "- Safra Data",
+      logo_path: "safradata.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1vln5LTHUkPGPyL1BzTKAxUzFTsjNN4EO/view?usp=sharing",
+      alt_name: "SAFRA",
+      color_code: "#1F70C199",
+    },
     // {
     //   title: "Big Data",
     //   subtitle: "- Kim Akers",
