@@ -45,14 +45,14 @@ export default class Main extends Component {
             )}
           />
           <Route
+            path="/blogs"
+            render={(props) => <Blogs {...props} theme={this.props.theme} />}
+          />
+          <Route
             path="/opensource"
             render={(props) => (
               <Opensource {...props} theme={this.props.theme} />
             )}
-          />
-          <Route
-            path="/blogs"
-            render={(props) => <Blogs {...props} theme={this.props.theme} />}
           />
           <Route
             path="/contact"
