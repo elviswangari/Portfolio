@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import Blogs from "./blogs/Blogs.js";
 
 export default class Main extends Component {
   render() {
@@ -48,6 +49,10 @@ export default class Main extends Component {
             render={(props) => (
               <Opensource {...props} theme={this.props.theme} />
             )}
+          />
+          <Route
+            path="/blogs"
+            render={(props) => <Blogs {...props} theme={this.props.theme} />}
           />
           <Route
             path="/contact"

@@ -96,7 +96,7 @@ class Header extends Component {
                   Open Source
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://elviswangari.hashnode.dev/"
                   target="_blank"
@@ -107,6 +107,18 @@ class Header extends Component {
                 >
                   Blogs
                 </a>
+              </li> */}
+              <li>
+                <NavLink
+                  to="/blogs"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Blogs
+                </NavLink>
               </li>
               <li>
                 <NavLink

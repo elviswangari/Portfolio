@@ -1,29 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Blog.css";
 import BlogCard from "../../components/blogCard/BlogCard";
-import { blogSection } from "../../portfolio";
 
 export default function Blogs() {
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    // Fetch blogs from Dev.to API
+    fetch("https://dev.to/api/articles?username=elviswangari")
+      .then((response) => response.json())
+      .then((data) => {
+        // Store the fetched blogs in the state
+        setBlogs(data);
+      })
+      .catch((error) => console.error("Error fetching blogs:", error));
+  }, []);
+
   return (
     <div className="main" id="blogs">
-      <div className="blog-header">
-        <h1 className="blog-header-text">{blogSection.title}</h1>
-        <p className="subTitle blog-subtitle">{blogSection.subtitle}</p>
-      </div>
       <div className="blog-main-div">
         <div className="blog-text-div">
-          {blogSection.blogs.map((blog) => {
-            return (
+          {blogs.length > 0 ? (
+            blogs.map((blog, index) => (
               <BlogCard
+                key={index}
                 blog={{
                   url: blog.url,
-                  image: blog.image,
+                  image: blog.social_image,
                   title: blog.title,
                   description: blog.description,
                 }}
               />
-            );
-          })}
+            ))
+          ) : (
+            <p>No blogs available at the moment</p>
+          )}
         </div>
       </div>
     </div>
